@@ -1,4 +1,4 @@
-package org.example.design_patterns.stradegy_pattern.DriveVehicle;
+package org.example.design_patterns.stradegy_pattern;
 
 import org.example.design_patterns.stradegy_pattern.DriveStategy.DriveStrategy;
 import org.example.design_patterns.stradegy_pattern.DriveStategy.NormalDriveStrategy;
