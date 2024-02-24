@@ -15,6 +15,7 @@ public class UpdateTemperatureOnLaptopObserver implements Observer{
 
     @Override
     public void update() {
+        System.out.println("==> hey laptop ! there has been changed in temperature");
         this.laptopTemp = observable.getData();
     }
 }

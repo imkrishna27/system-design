@@ -28,6 +28,8 @@ public class WeatherStationObservable implements Observable{
     @Override
     public void setData(float temp) {
         this.temp = temp;
+        // temperature is changed so notify everyone
+        this.notifyEveryOne();
 
     }
 

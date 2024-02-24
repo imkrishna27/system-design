@@ -12,18 +12,14 @@ public class ObserveTemperatureChangeMain {
         weatherStationObservable.add(updateTemperatureOnLaptopObserver);
         weatherStationObservable.add(updateTemperatureOnMobileObserver);
         weatherStationObservable.setData(40.00f);
-        // this must have notified everyone about change in temperature
-        weatherStationObservable.notifyEveryOne();
         // let's check temp of both the Observable
-        System.out.println(updateTemperatureOnLaptopObserver.laptopTemp);
-        System.out.println(updateTemperatureOnMobileObserver.mobileTemp);
+        System.out.println("laptop temp => "+ updateTemperatureOnLaptopObserver.laptopTemp);
+        System.out.println("mobile temp => "+ updateTemperatureOnMobileObserver.mobileTemp);
         // lets change temperature again
         weatherStationObservable.setData(90.011f);
-        // notify
-        weatherStationObservable.notifyEveryOne();
         // let's check temp of both the Observable
-        System.out.println(updateTemperatureOnLaptopObserver.laptopTemp);
-        System.out.println(updateTemperatureOnMobileObserver.mobileTemp);
+        System.out.println("laptop temp => "+ updateTemperatureOnLaptopObserver.laptopTemp);
+        System.out.println("mobile temp => "+ updateTemperatureOnMobileObserver.mobileTemp);
 
     }
 }

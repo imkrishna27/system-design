@@ -12,6 +12,7 @@ public class UpdateTemperatureOnMobileObserver implements Observer {
     }
     @Override
     public void update() {
+        System.out.println("==> hey mobile ! there has been changed in temperature");
         // set temperature to mobile
         this.mobileTemp = observable.getData();
     }
