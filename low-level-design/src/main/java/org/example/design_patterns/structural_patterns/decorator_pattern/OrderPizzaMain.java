@@ -1,9 +1,9 @@
-package org.example.design_patterns.behavioual_patterns.decorator_pattern;
+package org.example.design_patterns.structural_patterns.decorator_pattern;
 
-import org.example.design_patterns.behavioual_patterns.decorator_pattern.pizza_types.MargaritaPizza;
-import org.example.design_patterns.behavioual_patterns.decorator_pattern.pizza_types.VegDelightPizza;
-import org.example.design_patterns.behavioual_patterns.decorator_pattern.toppings_decorator.ExtraCheeseTopping;
-import org.example.design_patterns.behavioual_patterns.decorator_pattern.toppings_decorator.MushroomTopping;
+import org.example.design_patterns.structural_patterns.decorator_pattern.pizza_types.MargaritaPizza;
+import org.example.design_patterns.structural_patterns.decorator_pattern.pizza_types.VegDelightPizza;
+import org.example.design_patterns.structural_patterns.decorator_pattern.toppings_decorator.ExtraCheeseTopping;
+import org.example.design_patterns.structural_patterns.decorator_pattern.toppings_decorator.MushroomTopping;
 
 public class OrderPizzaMain {
     public static void main(String[] args) {
