@@ -1,4 +1,4 @@
-package org.example.design_patterns.behavioual_patterns.abstract_factory_pattern;
+package org.example.design_patterns.creational_patterns.abstract_factory_pattern;
 
 public class Audi implements Vehicle{
     @Override

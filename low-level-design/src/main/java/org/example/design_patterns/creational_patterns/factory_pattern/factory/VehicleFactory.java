@@ -1,8 +1,8 @@
-package org.example.design_patterns.behavioual_patterns.factory_pattern.factory;
+package org.example.design_patterns.creational_patterns.factory_pattern.factory;
 
-import org.example.design_patterns.behavioual_patterns.factory_pattern.Maruti;
-import org.example.design_patterns.behavioual_patterns.factory_pattern.Suzuki;
-import org.example.design_patterns.behavioual_patterns.factory_pattern.Vehicle;
+import org.example.design_patterns.creational_patterns.factory_pattern.Maruti;
+import org.example.design_patterns.creational_patterns.factory_pattern.Suzuki;
+import org.example.design_patterns.creational_patterns.factory_pattern.Vehicle;
 
 public class VehicleFactory {
     private String vehicleBrand;

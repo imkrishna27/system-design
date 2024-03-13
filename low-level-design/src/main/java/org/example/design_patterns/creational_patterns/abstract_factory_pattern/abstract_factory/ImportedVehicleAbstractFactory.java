@@ -1,9 +1,9 @@
-package org.example.design_patterns.behavioual_patterns.abstract_factory_pattern.abstract_factory;
+package org.example.design_patterns.creational_patterns.abstract_factory_pattern.abstract_factory;
 
-import org.example.design_patterns.behavioual_patterns.abstract_factory_pattern.Audi;
-import org.example.design_patterns.behavioual_patterns.abstract_factory_pattern.Bmw;
-import org.example.design_patterns.behavioual_patterns.abstract_factory_pattern.Tesla;
-import org.example.design_patterns.behavioual_patterns.abstract_factory_pattern.Vehicle;
+import org.example.design_patterns.creational_patterns.abstract_factory_pattern.Audi;
+import org.example.design_patterns.creational_patterns.abstract_factory_pattern.Bmw;
+import org.example.design_patterns.creational_patterns.abstract_factory_pattern.Tesla;
+import org.example.design_patterns.creational_patterns.abstract_factory_pattern.Vehicle;
 
 public class ImportedVehicleAbstractFactory extends VehicleAbstractFactory{
     private String vehicleBrand;

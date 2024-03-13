@@ -1,7 +1,7 @@
-package org.example.design_patterns.behavioual_patterns.abstract_factory_pattern.factory;
+package org.example.design_patterns.creational_patterns.abstract_factory_pattern.factory;
 
-import org.example.design_patterns.behavioual_patterns.abstract_factory_pattern.Vehicle;
-import org.example.design_patterns.behavioual_patterns.abstract_factory_pattern.abstract_factory.VehicleAbstractFactory;
+import org.example.design_patterns.creational_patterns.abstract_factory_pattern.Vehicle;
+import org.example.design_patterns.creational_patterns.abstract_factory_pattern.abstract_factory.VehicleAbstractFactory;
 
 public class VehicleFactory {
     private VehicleAbstractFactory vehicleAbstractFactory;

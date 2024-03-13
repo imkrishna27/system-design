@@ -1,6 +1,6 @@
-package org.example.design_patterns.behavioual_patterns.factory_pattern;
+package org.example.design_patterns.creational_patterns.factory_pattern;
 
-import org.example.design_patterns.behavioual_patterns.factory_pattern.factory.VehicleFactory;
+import org.example.design_patterns.creational_patterns.factory_pattern.factory.VehicleFactory;
 
 public class FactoryMain {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package org.example.design_patterns.behavioual_patterns.abstract_factory_pattern.abstract_factory;
+package org.example.design_patterns.creational_patterns.abstract_factory_pattern.abstract_factory;
 
-import org.example.design_patterns.behavioual_patterns.abstract_factory_pattern.*;
+import org.example.design_patterns.creational_patterns.abstract_factory_pattern.*;
 
 public class NormalVehicleAbstractFactory extends VehicleAbstractFactory{
     private String vehicleBrand;
