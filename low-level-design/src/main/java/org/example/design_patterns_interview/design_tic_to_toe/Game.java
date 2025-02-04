@@ -1,5 +1,6 @@
 package org.example.design_patterns_interview.design_tic_to_toe;
 
+import org.example.design_patterns_interview.design_tic_to_toe.piece_definition.OPiece;
 import org.example.design_patterns_interview.design_tic_to_toe.piece_definition.XPiece;
 
 import java.util.ArrayDeque;
@@ -14,7 +15,7 @@ public class Game {
     public void initializeGame() {
         // create two players
         players.add(new Player("Krishna",new XPiece(PieceType.X)));
-        players.add(new Player("Divya",new XPiece(PieceType.O)));
+        players.add(new Player("Divya",new OPiece(PieceType.O)));
         // assign the playing board
         this.board = new Board(3);
     }
